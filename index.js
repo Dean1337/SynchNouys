@@ -42,7 +42,7 @@ async function WriteText(directory, text) {
 };
 async function SiteRequest(url) {
     LoadAsciiTitle("./ascii/app.txt");
-
+;
     var list = require("./utils/admin/array");
 
     try {
